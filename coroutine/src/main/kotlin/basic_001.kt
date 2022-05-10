@@ -1,4 +1,4 @@
-package me.hyuni.main001
+package me.hyuni.basic001
 
 import kotlinx.coroutines.*
 

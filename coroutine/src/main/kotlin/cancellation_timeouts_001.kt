@@ -1,4 +1,4 @@
-package me.hyuni.main007
+package me.hyuni.cancellationAndTimeouts001
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

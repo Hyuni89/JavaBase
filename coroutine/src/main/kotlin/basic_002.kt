@@ -1,4 +1,4 @@
-package me.hyuni.main002
+package me.hyuni.basic002
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
