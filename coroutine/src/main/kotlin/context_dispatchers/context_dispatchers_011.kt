@@ -9,6 +9,8 @@ fun main() = runBlocking {
     println("Pre-main, current thread: ${Thread.currentThread().name}, thread local value: ${threadLocal.get()}")
     val job = launch(Dispatchers.Default + threadLocal.asContextElement(value = "launch")) {
         println("Launch start, current thread: ${Thread.currentThread().name}, thread local value: ${threadLocal.get()}")
+        threadLocal.set("this")
+        println("before yield, current thread: ${Thread.currentThread().name}, thread local value: ${threadLocal.get()}")
         yield()
         println("After yield, current thread: ${Thread.currentThread().name}, thread local value: ${threadLocal.get()}")
     }
