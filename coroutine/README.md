@@ -12,3 +12,5 @@ co + routine의 합성어로 어떤 routine을 co(함께) 해결해 나간다는
 ## [Asynchronous Flow](./src/main/kotlin/asynchronous_flow/README.md)
 
 ## [Channels](./src/main/kotlin/channels/README.md)
+
+## [Coroutine exceptions handling](./src/main/kotlin/exceptions/README.md)
