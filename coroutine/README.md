@@ -16,3 +16,5 @@ co + routine의 합성어로 어떤 routine을 co(함께) 해결해 나간다는
 ## [Coroutine exceptions handling](./src/main/kotlin/exceptions/README.md)
 
 ## [Shared mutable state and concurrency](./src/main/kotlin/mutablestate_concurrency/README.md)
+
+## [Select expression](./src/main/kotlin/select_expression/README.md)
