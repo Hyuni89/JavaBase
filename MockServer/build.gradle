@@ -1,0 +1,12 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.7.10'
+}
+
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/kotlin'
+}
+
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-parent:2.7.2"
+    implementation "org.springframework.boot:spring-boot-starter-web:2.7.2"
+}
