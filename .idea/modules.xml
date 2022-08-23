@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaBase.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.iml" filepath="$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.main.iml" filepath="$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.test.iml" filepath="$PROJECT_DIR$/.idea/modules/coroutine/JavaBase.coroutine.test.iml" />
+    </modules>
+  </component>
+</project>
