@@ -51,6 +51,7 @@
     <content url="file://$MODULE_DIR$/../../../coroutine/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../../coroutine/src/main/kotlin" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../coroutine/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../coroutine/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -6,5 +6,9 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 class MockController {
     @RequestMapping("/delay")
-    fun delay() = "test"
+    fun delay(): String {
+        val sleepTime = 30L
+        Thread.sleep(sleepTime)
+        return "took $sleepTime ms"
+    }
 }

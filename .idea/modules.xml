@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaBase.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientTest/JavaBase.ClientTest.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MockServer/JavaBase.MockServer.test.iml" />
