@@ -16,11 +16,15 @@ fun main() {
     }
 
     val start = System.currentTimeMillis()
-    val futures = mutableListOf<Future<*>>()
-    repeat(10000) {
-        futures.add(pool.submit(Callable { client.send(request, HttpResponse.BodyHandlers.ofString()) }))
+    for (i in 2..1500 step 5) {
+        val futures = mutableListOf<Future<*>>()
+        repeat(i) {
+            futures.add(pool.submit(Callable { client.send(request, HttpResponse.BodyHandlers.ofString()) }))
+        }
+        futures.forEach { it.get() }
+        Thread.sleep(3L)
+        print("..$i")
     }
-    futures.forEach { it.get() }
     println("total time took ${System.currentTimeMillis() - start} ms")
 
     pool.destroy()
